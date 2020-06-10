@@ -1,0 +1,29 @@
+{
+  "name": "npm-lab-denver-web-career-031119",
+  "version": "1.0.0",
+  "description": "beta run at creating a package.json file using npm init",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstrombe19/npm-lab-denver-web-career-031119.git"
+  },
+  "keywords": [
+    "kwan"
+  ],
+  "author": "Jared Stromberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jstrombe19/npm-lab-denver-web-career-031119/issues"
+  },
+  "homepage": "https://github.com/jstrombe19/npm-lab-denver-web-career-031119#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
